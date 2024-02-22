@@ -1,3 +1,3 @@
 source 'https://rubygems.org'
 
-gem 'sidekiq', '~> 6.5.10'
+gem 'sidekiq', '~> 7.2.0'
