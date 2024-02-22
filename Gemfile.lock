@@ -1,0 +1,22 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    concurrent-ruby (1.2.2)
+    connection_pool (2.4.1)
+    rack (2.2.8)
+    redis-client (0.19.1)
+      connection_pool
+    sidekiq (7.2.0)
+      concurrent-ruby (< 2)
+      connection_pool (>= 2.3.0)
+      rack (>= 2.2.4)
+      redis-client (>= 0.14.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  sidekiq (~> 6.5.10)
+
+BUNDLED WITH
+   2.4.18
